@@ -7,12 +7,13 @@ namespace files{
 
 void writing_text(){
 	char const * fileName = "files/text.txt";
-	ofstream outFile;
+	ofstream outFile; //output file stream
 
 	outFile.open(fileName);
 
 	if(outFile.is_open()){
 		outFile << "hello" << endl;
+		outFile.close();
 	}
 	else {
 		cout << "can not open " << fileName << endl;

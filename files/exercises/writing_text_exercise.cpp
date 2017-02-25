@@ -14,8 +14,8 @@ void writing_text_exercise(){
 
 	if(outFile.is_open()){
 
-		for(int i = 0; i < 100; i++){
-			outFile << i << ": friend name: " << friends[i % length] << endl;
+		for(int i = 0; i < 50; i++){
+			outFile << i << " friend name:" << friends[i % length] << endl;
 		}
 
 	}

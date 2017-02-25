@@ -1,100 +1,50 @@
-0: friend name: Vasi
-1: friend name: Alex
-2: friend name: Caius
-3: friend name: Rusu
-4: friend name: Andreea
-5: friend name: Dani
-6: friend name: Vasi
-7: friend name: Alex
-8: friend name: Caius
-9: friend name: Rusu
-10: friend name: Andreea
-11: friend name: Dani
-12: friend name: Vasi
-13: friend name: Alex
-14: friend name: Caius
-15: friend name: Rusu
-16: friend name: Andreea
-17: friend name: Dani
-18: friend name: Vasi
-19: friend name: Alex
-20: friend name: Caius
-21: friend name: Rusu
-22: friend name: Andreea
-23: friend name: Dani
-24: friend name: Vasi
-25: friend name: Alex
-26: friend name: Caius
-27: friend name: Rusu
-28: friend name: Andreea
-29: friend name: Dani
-30: friend name: Vasi
-31: friend name: Alex
-32: friend name: Caius
-33: friend name: Rusu
-34: friend name: Andreea
-35: friend name: Dani
-36: friend name: Vasi
-37: friend name: Alex
-38: friend name: Caius
-39: friend name: Rusu
-40: friend name: Andreea
-41: friend name: Dani
-42: friend name: Vasi
-43: friend name: Alex
-44: friend name: Caius
-45: friend name: Rusu
-46: friend name: Andreea
-47: friend name: Dani
-48: friend name: Vasi
-49: friend name: Alex
-50: friend name: Caius
-51: friend name: Rusu
-52: friend name: Andreea
-53: friend name: Dani
-54: friend name: Vasi
-55: friend name: Alex
-56: friend name: Caius
-57: friend name: Rusu
-58: friend name: Andreea
-59: friend name: Dani
-60: friend name: Vasi
-61: friend name: Alex
-62: friend name: Caius
-63: friend name: Rusu
-64: friend name: Andreea
-65: friend name: Dani
-66: friend name: Vasi
-67: friend name: Alex
-68: friend name: Caius
-69: friend name: Rusu
-70: friend name: Andreea
-71: friend name: Dani
-72: friend name: Vasi
-73: friend name: Alex
-74: friend name: Caius
-75: friend name: Rusu
-76: friend name: Andreea
-77: friend name: Dani
-78: friend name: Vasi
-79: friend name: Alex
-80: friend name: Caius
-81: friend name: Rusu
-82: friend name: Andreea
-83: friend name: Dani
-84: friend name: Vasi
-85: friend name: Alex
-86: friend name: Caius
-87: friend name: Rusu
-88: friend name: Andreea
-89: friend name: Dani
-90: friend name: Vasi
-91: friend name: Alex
-92: friend name: Caius
-93: friend name: Rusu
-94: friend name: Andreea
-95: friend name: Dani
-96: friend name: Vasi
-97: friend name: Alex
-98: friend name: Caius
-99: friend name: Rusu
+0 friend name:Vasi
+1 friend name:Alex
+2 friend name:Caius
+3 friend name:Rusu
+4 friend name:Andreea
+5 friend name:Dani
+6 friend name:Vasi
+7 friend name:Alex
+8 friend name:Caius
+9 friend name:Rusu
+10 friend name:Andreea
+11 friend name:Dani
+12 friend name:Vasi
+13 friend name:Alex
+14 friend name:Caius
+15 friend name:Rusu
+16 friend name:Andreea
+17 friend name:Dani
+18 friend name:Vasi
+19 friend name:Alex
+20 friend name:Caius
+21 friend name:Rusu
+22 friend name:Andreea
+23 friend name:Dani
+24 friend name:Vasi
+25 friend name:Alex
+26 friend name:Caius
+27 friend name:Rusu
+28 friend name:Andreea
+29 friend name:Dani
+30 friend name:Vasi
+31 friend name:Alex
+32 friend name:Caius
+33 friend name:Rusu
+34 friend name:Andreea
+35 friend name:Dani
+36 friend name:Vasi
+37 friend name:Alex
+38 friend name:Caius
+39 friend name:Rusu
+40 friend name:Andreea
+41 friend name:Dani
+42 friend name:Vasi
+43 friend name:Alex
+44 friend name:Caius
+45 friend name:Rusu
+46 friend name:Andreea
+47 friend name:Dani
+48 friend name:Vasi
+49 friend name:Alex
