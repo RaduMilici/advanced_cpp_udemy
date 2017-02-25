@@ -10,7 +10,7 @@ void writing_text_exercise(){
 	string friends [] = {"Vasi", "Alex", "Caius", "Rusu", "Andreea", "Dani", "Sosi"};
 	int length = sizeof(friends) / sizeof(string) - 1;
 
-	outFile.open("files/exercises/writing_text_exercise.txt");
+	outFile.open("src/files/exercises/writing_text_exercise.txt");
 
 	if(outFile.is_open()){
 

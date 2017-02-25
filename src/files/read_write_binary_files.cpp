@@ -3,7 +3,7 @@
 #include "files.h"
 using namespace std;
 
-const char * file_name = "files/read_write_binary_files.bin";
+const char * file_name = "src/files/read_write_binary_files.bin";
 //--------------------------------------------------------------------------------
 void write(){
 	files::Person person = {"Frodo", 220, 420.0};

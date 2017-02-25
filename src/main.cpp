@@ -13,7 +13,7 @@ int main(){
 	//files::reading_text();
 	//files::parsing_text();
 	//files::structs_padding();
-	files::read_write_binary_files();
+	//files::read_write_binary_files();
 
 	return 0;
 }

@@ -9,7 +9,7 @@ namespace files {
 void reading_text(){
 	ifstream inFile; //input file stream
 
-	inFile.open("files/exercises/writing_text_exercise.txt");
+	inFile.open("src/files/exercises/writing_text_exercise.txt");
 
 	if(inFile.is_open()){
 		string line;

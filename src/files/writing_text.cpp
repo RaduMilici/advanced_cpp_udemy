@@ -6,7 +6,7 @@ using namespace std;
 namespace files{
 
 void writing_text(){
-	char const * fileName = "files/text.txt";
+	char const * fileName = "src/files/text.txt";
 	ofstream outFile; //output file stream
 
 	outFile.open(fileName);
