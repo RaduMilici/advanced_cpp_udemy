@@ -12,6 +12,9 @@ namespace stl_udemy{
 	void maps();
 	void objects_as_map_values();
 	void objects_as_map_keys();
+	void multimaps();
+	void sets();
+	void stacks_and_queues();
 
 }
 

@@ -23,7 +23,10 @@ int main(){
 	//stl_udemy::lists();
 	//stl_udemy::maps();
 	//stl_udemy::objects_as_map_values();
-	stl_udemy::objects_as_map_keys();
+	//stl_udemy::objects_as_map_keys();
+	//stl_udemy::multimaps();
+	//stl_udemy::sets();
+	stl_udemy::stacks_and_queues();
 
 	return 0;
 }
