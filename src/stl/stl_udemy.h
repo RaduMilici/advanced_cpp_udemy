@@ -15,6 +15,8 @@ namespace stl_udemy{
 	void multimaps();
 	void sets();
 	void stacks_and_queues();
+	void sort_vectors_deque_friend();
+	void complex_data_structures();
 
 }
 

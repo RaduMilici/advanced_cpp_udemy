@@ -13,7 +13,7 @@ Person::Person(string name, int age):
 Person::Person(const Person &other){
 	name = other.name;
 	age = other.age;
-	cout << "copy constructor running" << endl;
+	//cout << "copy constructor running" << endl;
 }
 
 Person::~Person(){

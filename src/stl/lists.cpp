@@ -18,9 +18,22 @@ void lists(){
 	/*
 	 * http://www.cplusplus.com/reference/list/list/
 	 *
-	 * Lists are sequence containers that allow constant time
-	 * insert and erase operations anywhere within the sequence,
-	 * and iteration in both directions.
+	 * Lists are sequence containers that allow constant time insert and erase
+	 * operations anywhere within the sequence, and iteration in both directions.
+	 *
+	 * Compared to other base standard sequence containers (array, vector and deque),
+	 * lists perform generally better in inserting, extracting and moving elements in
+	 * any position within the container for which an iterator has already been obtained,
+	 * and therefore also in algorithms that make intensive use of these, like sorting
+	 * algorithms.
+	 *
+	 * The main drawback of lists and forward_lists compared to these other sequence
+	 * containers is that they lack direct access to the elements by their position;
+	 * For example, to access the sixth element in a list, one has to iterate from a
+	 * known position (like the beginning or the end) to that position, which takes
+	 * linear time in the distance between these. They also consume some extra memory
+	 * to keep the linking information associated to each element (which may be an
+	 * important factor for large lists of small-sized elements).
 	 */
 
 	list<int> numbers;

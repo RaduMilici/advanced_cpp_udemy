@@ -26,7 +26,11 @@ int main(){
 	//stl_udemy::objects_as_map_keys();
 	//stl_udemy::multimaps();
 	//stl_udemy::sets();
-	stl_udemy::stacks_and_queues();
+	//stl_udemy::stacks_and_queues();
+	//stl_udemy::sort_vectors_deque_friend();
+	//stl_udemy::complex_data_structures();
+
+	op_ov::assignment_operator();
 
 	return 0;
 }

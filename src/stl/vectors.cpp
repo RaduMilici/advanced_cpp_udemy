@@ -6,6 +6,24 @@ using namespace std;
 namespace stl_udemy{
 
 void vectors(){
+	/*
+	 * http://www.cplusplus.com/reference/vector/vector/
+	 *
+	 * Vectors are sequence containers representing arrays that can change in size.
+	 * Just like arrays, vectors use contiguous storage locations for their elements,
+	 * which means that their elements can also be accessed using offsets on regular
+	 * pointers to its elements, and just as efficiently as in arrays.
+	 * But unlike arrays, their size can change dynamically, with their storage
+	 * being handled automatically by the container.
+	 *
+	 * Compared to the other dynamic sequence containers (deques, lists and
+	 * forward_lists), vectors are very efficient accessing its elements
+	 * (just like arrays) and relatively efficient adding or removing elements from
+	 * its end.
+	 * For operations that involve inserting or removing elements at positions
+	 * other than the end, they perform worse than the others, and have less consistent
+	 * iterators and references than lists and forward_lists.
+	 * */
 
 	vector<string> animals;
 	cout << endl;
