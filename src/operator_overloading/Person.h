@@ -5,9 +5,10 @@ namespace op_ov {
 
 class Person {
 public:
-	virtual ~Person();
 	Person();
+	Person(const Person & other); // copy constructor
 	Person(int id, std::string name);
+	virtual ~Person();
 
 	void print();
 	const Person & operator = (const Person & other);
@@ -15,6 +16,10 @@ public:
 private:
 	int id;
 	std::string name;
+	friend std::ostream & operator << (std::ostream & out, const Person & other) {
+		out << "from operator overload: " << other.id << ": " << other.name;
+		return out;
+	}
 };
 
 } /* namespace op_ov */

@@ -30,7 +30,10 @@ int main(){
 	//stl_udemy::sort_vectors_deque_friend();
 	//stl_udemy::complex_data_structures();
 
-	op_ov::assignment_operator();
+	//op_ov::assignment_operator();
+	//op_ov::left_bit_shift();
+	//op_ov::complex_number_class();
+	op_ov::plus_operator();
 
 	return 0;
 }

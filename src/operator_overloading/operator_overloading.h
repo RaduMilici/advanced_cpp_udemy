@@ -11,6 +11,9 @@
 namespace op_ov{
 
 	void assignment_operator();
+	void left_bit_shift();
+	void complex_number_class();
+	void plus_operator();
 
 }
 

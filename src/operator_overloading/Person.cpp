@@ -4,34 +4,61 @@ using namespace std;
 
 namespace op_ov {
 
-Person::~Person() {
+// constructors
+
+Person::Person (const Person & other) {
+	cout << "Person copy constructor" << endl;
+	id = other.id;
+	name = other.name;
 }
 
-Person::Person(): id(0), name("") {
+Person::Person():
+		id(0), name("") {
 }
 
-Person::Person(int id, string name):
-		id(id), name(name){
+Person::Person (int id, string name):
+		id(id), name(name) {
 }
+
+// destructor
+
+Person::~Person () {
+	cout << name << "'s Person destructor called" << endl;
+}
+
+// methods
 
 void Person::print(){
 	cout << id << ": " << name << endl;
 }
 
+// operator overloads
+
 const Person & Person::operator = (const Person & other) {
-	cout << "----------------------------" << endl;
 	cout << name << " assignment operator overload" << endl;
-	cout << "name before: " << name << " | " << flush;
 
 	id = other.id;
 	name = other.name;
 
-	cout << "name after: " << name << endl;
-	cout << "----------------------------" << endl;
-
-
 	return * this;
 }
 
-
 } /* namespace op_ov */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

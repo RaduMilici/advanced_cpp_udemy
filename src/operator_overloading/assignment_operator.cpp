@@ -4,7 +4,7 @@ using namespace std;
 
 namespace op_ov{
 
-void assignment_operator(){
+void assignment_operator () {
 
 	cout << "print p1: " << flush;
 	Person p1(29, "radu");
@@ -27,8 +27,11 @@ void assignment_operator(){
 
 	cout << endl;
 
+	/*
+	 * Doing this does not invoke the assignment operator,
+	 * but the copy constructor.
+	 */
 	Person p4 = p1;
-	// copy initialization
 	cout << "print p4: " << flush;
 	p4.print();
 
