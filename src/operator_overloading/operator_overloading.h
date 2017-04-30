@@ -14,6 +14,8 @@ namespace op_ov{
 	void left_bit_shift();
 	void complex_number_class();
 	void plus_operator();
+	void equality_test();
+	void dereference_operator();
 
 }
 

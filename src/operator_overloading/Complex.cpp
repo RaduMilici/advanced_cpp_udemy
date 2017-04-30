@@ -38,6 +38,21 @@ Complex operator + (double real, const Complex & a) {
 
 }
 
+bool operator == (const Complex & a, const Complex & b) {
+
+	bool rEqual = a.getReal() == b.getReal();
+	bool iEqual = a.getImaginary() == b.getImaginary();
+
+	return rEqual && iEqual;
+
+}
+
+Complex Complex::operator * () const {
+
+	return Complex(real, -imaginary);
+
+}
+
 // constructors & destructor
 
 Complex::Complex():

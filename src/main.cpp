@@ -2,7 +2,7 @@
 #include "lessons.h"
 using namespace std;
 
-int main(){
+int main () {
 
 	//exceptions::basics();
 	//exceptions::standard();
@@ -33,7 +33,18 @@ int main(){
 	//op_ov::assignment_operator();
 	//op_ov::left_bit_shift();
 	//op_ov::complex_number_class();
-	op_ov::plus_operator();
+	//op_ov::plus_operator();
+	//op_ov::equality_test();
+	//op_ov::dereference_operator();
 
-	return 0;
+	//templates::classes();
+	//templates::functions();
+	//templates::classes_exercises();
+
+	//pass_func_to_func::function_pointers();
+	//pass_func_to_func::function_pointers_exercises();
+	pass_func_to_func::using_function_pointers();
+
 }
+
+

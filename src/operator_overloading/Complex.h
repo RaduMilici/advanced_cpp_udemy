@@ -15,6 +15,7 @@ public:
 	virtual ~Complex();
 
 	const Complex & operator = (const Complex & other);
+	Complex operator * () const;
 
 	/*
 	 * Methods marked as const because when Complex is passed as a
@@ -36,6 +37,7 @@ ostream & operator << (ostream & out, const Complex & c);
 Complex operator + (const Complex & a, const Complex & b);
 Complex operator + (const Complex & a, double real);
 Complex operator + (double real, const Complex & a);
+bool operator == (const Complex & a, const Complex & b);
 
 
 } /* namespace op_ov */
