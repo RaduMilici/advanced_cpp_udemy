@@ -13,6 +13,9 @@ namespace pass_func_to_func {
 void function_pointers();
 void function_pointers_exercises();
 void using_function_pointers();
+void object_slicing_and_polymorphism();
+void abstract_classes();
+void functors();
 
 }
 

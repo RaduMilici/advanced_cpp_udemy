@@ -43,7 +43,11 @@ int main () {
 
 	//pass_func_to_func::function_pointers();
 	//pass_func_to_func::function_pointers_exercises();
-	pass_func_to_func::using_function_pointers();
+	//pass_func_to_func::using_function_pointers();
+	//pass_func_to_func::object_slicing_and_polymorphism();
+	//pass_func_to_func::abstract_classes();
+	//pass_func_to_func::functors();
+	cpp11::decltype_typeid_name_mangling();
 
 }
 
